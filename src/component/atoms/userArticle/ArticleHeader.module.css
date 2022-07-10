@@ -1,0 +1,50 @@
+.articleHeader{
+    width: 100%;
+    display: flex;
+    font-size: 14px;
+}
+.header{
+    width: 100%;
+    display: flex;
+    box-sizing: border-box;
+    align-items: center;
+    flex-direction: row;
+    flex-grow: 1;
+    flex-shrink: 1;
+    padding:14px 4px 14px 16px;
+    max-width: calc(100% - 48px);
+}
+
+.userNameContainer{
+    box-sizing: border-box;
+    margin-left: 12px;
+    font-size: 14px;
+    display: flex;
+    flex-direction: column;
+    line-height: 18px;
+}
+.headerUserImg{
+    display: flex;
+    box-sizing: border-box;
+    font-size: 100%;
+}
+.userPfImg{
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+}
+
+.articlePhoto{
+    width: 100%;
+}
+.photoContainer{
+    width: 100%;
+}
+
+.moreContainer{
+    display: flex;
+    align-items: center;
+}
+.more{
+    padding: 8px;
+}
